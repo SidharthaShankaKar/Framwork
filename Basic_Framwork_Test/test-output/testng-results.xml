@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="76" started-at="2019-02-25T17:08:49Z" finished-at="2019-02-25T17:08:49Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="76" started-at="2019-02-25T17:08:49Z" finished-at="2019-02-25T17:08:49Z">
+      <class name="com.learn.Frmawork.Testcases.Login_Page">
+        <test-method status="FAIL" signature="configexcell()[pri:0, instance:com.learn.Frmawork.Testcases.Login_Page@6767c1fc]" name="configexcell" is-config="true" duration-ms="0" started-at="2019-02-25T22:38:49Z" finished-at="2019-02-25T22:38:49Z">
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[RETURN_NULL_AND_BLANK]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: RETURN_NULL_AND_BLANK
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:126)
+	at com.learn.Frmawork.Utility.Excelldataprovider.<init>(Excelldataprovider.java:20)
+	at com.learn.Frmawork.Pages.base.configexcell(base.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configexcell -->
+        <test-method status="SKIP" signature="browsersetup()[pri:0, instance:com.learn.Frmawork.Testcases.Login_Page@6767c1fc]" name="browsersetup" is-config="true" duration-ms="0" started-at="2019-02-25T22:38:49Z" finished-at="2019-02-25T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browsersetup -->
+        <test-method status="SKIP" signature="Loginapp()[pri:0, instance:com.learn.Frmawork.Testcases.Login_Page@6767c1fc]" name="Loginapp" duration-ms="2" started-at="2019-02-25T22:38:49Z" finished-at="2019-02-25T22:38:49Z">
+          <exception class="java.lang.NoSuchFieldError">
+            <message>
+              <![CDATA[RETURN_NULL_AND_BLANK]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NoSuchFieldError: RETURN_NULL_AND_BLANK
+	at org.apache.poi.xssf.usermodel.XSSFWorkbook.<init>(XSSFWorkbook.java:126)
+	at com.learn.Frmawork.Utility.Excelldataprovider.<init>(Excelldataprovider.java:20)
+	at com.learn.Frmawork.Pages.base.configexcell(base.java:29)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:515)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:217)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:144)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:326)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NoSuchFieldError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Loginapp -->
+        <test-method status="SKIP" signature="takescreenshoot(org.testng.ITestResult)[pri:0, instance:com.learn.Frmawork.Testcases.Login_Page@6767c1fc]" name="takescreenshoot" is-config="true" duration-ms="0" started-at="2019-02-25T22:38:49Z" finished-at="2019-02-25T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takescreenshoot -->
+        <test-method status="SKIP" signature="Closingbrowser()[pri:0, instance:com.learn.Frmawork.Testcases.Login_Page@6767c1fc]" name="Closingbrowser" is-config="true" duration-ms="0" started-at="2019-02-25T22:38:49Z" finished-at="2019-02-25T22:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Closingbrowser -->
+      </class> <!-- com.learn.Frmawork.Testcases.Login_Page -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
