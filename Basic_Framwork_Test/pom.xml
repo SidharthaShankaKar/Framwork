@@ -29,7 +29,28 @@
     <artifactId>poi</artifactId>
     <version>3.17</version>
 </dependency>
-  
-  
   </dependencies>
+  
+  <build>
+  
+  <plugins>
+   
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>3.0.0-M3</version>
+        <configuration>
+          <suiteXmlFiles>
+            <suiteXmlFile>XML_FIles/testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
+          <systemPropertyVariables>
+          
+          <executionBrowser>${Browser}</executionBrowser>
+          <AppUrlforTest>${Appurl}</AppUrlforTest>
+                    </systemPropertyVariables>
+        </configuration>
+      </plugin>
+      
+</plugins>
+</build>
 </project>

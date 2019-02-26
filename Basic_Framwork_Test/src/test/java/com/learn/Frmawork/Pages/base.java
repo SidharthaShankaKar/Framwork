@@ -8,6 +8,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Parameters;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -29,16 +30,17 @@ public class base {
 	public void configexcell()
 	{
 		excel = new Excelldataprovider();
-		cong= new Configdataprovider(); 
+		cong=  new Configdataprovider(); 
 		
 		ExtentHtmlReporter extent= new ExtentHtmlReporter(new File(System.getProperty("user.dir")+ "/Report/Frecrm.html"));
 		report= new ExtentReports();
 		report.attachReporter(extent);
 				}
+	@Parameters({"Browser","Appurl"})
 	@BeforeClass
-	public void browsersetup()
+	public void browsersetup(String Browser,String Appurl)
 	{
-		Browser_Factory.StartBrowser(driver, cong.browser(), cong.stagingurl());
+		Browser_Factory.StartBrowser(driver,Browser, Appurl);
 	}
 	@AfterClass
 	public void Closingbrowser()
